@@ -43,8 +43,8 @@ public class ContactUi implements ListDiffInterface<ContactUi> {
     }
 
     @Override
-    public boolean theSameAs(ContactUi obj) {
-        return this.hashCode() == obj.hashCode();
+    public boolean theSameAs(ContactUi anotherItem) {
+        return this.hashCode() == anotherItem.hashCode();
     }
 
     @Override
